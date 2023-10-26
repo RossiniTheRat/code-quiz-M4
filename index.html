@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header >
+        <p class="view-high-score">View High Scores</p>
+        <p class="time-remaining" id="time-remaining">Time remaining: </p>
+    </header>
+
+    <main>
+        <article class="intro">
+            <h1>Coding Quiz Challenge!</h1>
+            <p>This is a timed coding quiz
+            <br>Time bank starts with 60 seconds
+            <br>Time is added or subtracted for right and wrong
+            <br>To start the quiz press the <i>Begin Quiz</i> button</p>
+            <span class="begin-btn" id="begin-btn">Begin Quiz</span>
+        </article>
+        <!-- question 1 -->
+        <article class="q1"><h2>Question 1</h2>
+            <p>The external JavaScript file must contain the &lt;script&gt; tag.</p>
+            <label>
+              <input type="radio" name="q1" value="a">
+              True
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="q1" value="b">
+              False
+            </label></article>
+        <!-- question 2 -->
+        <article class="q2"><h2>Question 2</h2>
+            <p>Where is the correct place to insert a JavaScript?</p>
+            <label>
+              <input type="radio" name="q2" value="a">
+              A. The &lt;body&gt; section
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="q2" value="b">
+              B. Both the &lt;head&gt; section and the &lt;body&gt; section are correct
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="q2" value="c">
+              C. The &lt;head&gt; section
+            </label></article>
+        <!-- question 3 -->
+        <article class="q3"><h2>Question 3</h2>
+            <p>Inside which HTML element do we put the JavaScript?</p>
+            <label>
+                <input type="radio" name="q3" value="a">
+                A. &lt;javascript&gt;
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q3" value="b">
+                B. &lt;js&gt;
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q3" value="c">
+                C. &lt;script&gt;
+            </label></article>
+        <!-- question 4 -->
+        <article class="q4"><h2>Question 4</h2>
+            <p>How do you create a function in JavaScript?</p>
+            <label>
+                <input type="radio" name="q4" value="a">
+                A. function myFunction()
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q4" value="b">
+                B. function:myFunction()
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q4" value="c">
+                C. function = myFunction()
+            </label>
+        </article>
+        <!-- question 5 -->
+        <article class="q5"><h2>Question 5</h2>
+            <p>How do you call a function named "myFunction"?</p>
+            <label>
+                <input type="radio" name="q5" value="a">
+                A. call function myFunction()
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q5" value="b">
+                B. myFunction()
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q5" value="c">
+                C. call myFunction()
+            </label>
+        </article>
+    </main>
+
+    <footer class="previous-answer"></footer>
+    <script src="./script.js"></script>
+</body>
+</html>

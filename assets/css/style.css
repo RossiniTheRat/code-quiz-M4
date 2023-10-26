@@ -1,0 +1,43 @@
+body {
+    display: block;
+    margin: 0px;
+}
+
+header {
+    background-color: darkslateblue; 
+}
+
+.view-high-score {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    
+}
+
+.time-remaining {
+    color: white;
+    font-size: 20px;
+    text-align: right;
+}
+
+.intro {
+    text-align: center;
+    font-size: 40px;
+}
+
+.begin-btn {
+    background-color: darkslateblue;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 20px;   
+}
+
+.begin-btn:hover {
+    cursor: pointer;
+    background-color: mediumslateblue;
+}
+
+footer {
+
+}
