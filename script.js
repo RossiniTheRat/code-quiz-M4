@@ -45,7 +45,7 @@ beginBtn.addEventListener('click', () => {
 });
 
 
-// Example code to check the selected answer for question 1
+//check the selected answer for question 1
 question1RadioEls.forEach(radioEl => {
   radioEl.addEventListener('change', () => {
     if (radioEl.checked) {
@@ -57,7 +57,7 @@ question1RadioEls.forEach(radioEl => {
   });
 });
 
-// Example code to check the selected answer for question 2
+//check the selected answer for question 2
 question2RadioEls.forEach(radioEl => {
   radioEl.addEventListener('change', () => {
     if (radioEl.checked) {
@@ -70,7 +70,7 @@ question2RadioEls.forEach(radioEl => {
   });
 });
 
-// Example code to check the selected answer for question 3
+//check the selected answer for question 3
 question3RadioEls.forEach(radioEl => {
   radioEl.addEventListener('change', () => {
     if (radioEl.checked) {
@@ -83,7 +83,7 @@ question3RadioEls.forEach(radioEl => {
   });
 });
 
-// Example code to check the selected answer for question 4
+//check the selected answer for question 4
 question4RadioEls.forEach(radioEl => {
   radioEl.addEventListener('change', () => {
     if (radioEl.checked) {
@@ -96,7 +96,7 @@ question4RadioEls.forEach(radioEl => {
   });
 });
 
-// Example code to check the selected answer for question 5
+//check the selected answer for question 5
 question5RadioEls.forEach(radioEl => {
   radioEl.addEventListener('change', () => {
     if (radioEl.checked) {
